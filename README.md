@@ -107,7 +107,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - Design inspired by [Sixtus Agbo](https://www.sixtusagbo.dev)
 - Built with [Start Bootstrap](https://startbootstrap.com/)
-- Icons by [Font Awesome](https://fontawesome.com/)
 
 ## 📧 Contact
 
