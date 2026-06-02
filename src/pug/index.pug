@@ -1,253 +1,255 @@
 doctype html
 html(lang='en')
-
     head
-
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Aynaz Javanivayeghan - AI/ML Engineer and Software Developer specializing in deep learning, LLMs, and time-series forecasting. Co-founder of 41prompts.ai.')
+        meta(name='author', content='Aynaz Javanivayeghan')
 
-        title Resume - Start Bootstrap Theme
+        title Aynaz Javanivayeghan - AI/ML Engineer
 
-        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+        link(rel='icon', type='image/png', href='assets/img/favicon-32x32.png?v=3')
 
-        // Font Awesome icons (free version)
+        // Font Awesome
         script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
 
-        // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
-
-        // Core theme CSS (includes Bootstrap)
+        // Core CSS
         link(href='css/styles.css', rel='stylesheet')
 
-    body#page-top
+    body
+        // Top Navigation
+        header.header
+            .container
+                nav.navbar
+                    a.brand(href='#home')
+                        span.brand-text AJ
+                        span.brand-dot .
+                    ul.nav-menu
+                        li: a(href='#home') HOME
+                        li: a(href='#projects') PROJECTS
+                        li: a(href='#skills') SKILLS
+                        li: a(href='#experience') EXPERIENCE
+                        li: a(href='#contact') CONTACT
+                    a.btn-talk(href='mailto:aynaz.javanivayeghan@mail.concordia.ca') Let's Talk →
 
-        // Navigation
-        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
-            a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
-                span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
-            button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                span.navbar-toggler-icon
-            #navbarResponsive.collapse.navbar-collapse
-                ul.navbar-nav
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#about') About
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Experience
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
+        // Hero Section
+        main
+            section#home.hero
+                .container
+                    .hero-grid
+                        .hero-left
+                            h1.hero-title
+                                | Hi, I'm
+                                span.highlight Aynaz
+                            h2.hero-subtitle AI/ML Engineer
 
-        // Page Content
-        .container-fluid.p-0
+                            p.hero-desc I develop intelligent systems with deep learning models, LLMs, RAG pipelines, AI agents, and data analysis solutions. Co-founder of 41prompts.ai. Currently building time-series models for power-grid outage prediction and forecasting.
 
-            // About
-            section#about.resume-section
-                .resume-section-content
-                    h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
-                    .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
-                    p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-                    .social-icons
-                        a.social-icon(href='#!')
-                            i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
-                            i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
+                            .hero-actions
+                                a.btn.btn-primary(href='#projects') View My Work →
+                                a.btn.btn-secondary(href='assets/img/Aynaz_Javani_CV.pdf', download='Aynaz_Javani_CV.pdf')
+                                    i.fas.fa-download
+                                    |  Resume
 
-            hr.m-0
+                            .social-bar
+                                span.social-label Find me on
+                                a.social-link(href='https://github.com/aynazjvn', target='_blank', aria-label='GitHub')
+                                    i.fab.fa-github
+                                a.social-link(href='https://www.linkedin.com/in/aynaz-javani', target='_blank', aria-label='LinkedIn')
+                                    i.fab.fa-linkedin-in
+                                a.social-link(href='https://aynazjvn.github.io', target='_blank', aria-label='Website')
+                                    i.fas.fa-globe
 
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
+                        .hero-right
+                            .profile-card
+                                .profile-img-wrapper
+                                    img.profile-img(src='assets/img/profile.jpg', alt='Aynaz Javanivayeghan')
+                                .stats-grid
+                                    .stat
+                                        .stat-num 2+
+                                        .stat-label Years Exp.
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-                        .flex-shrink-0
-                            span.text-primary March 2013 - Present
+            // Projects Section
+            section#projects.section
+                .container
+                    h2.section-title Projects
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-                        .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
+                    .projects-grid
+                        .project-item.featured
+                            .project-icon
+                                i.fas.fa-globe
+                            h3.project-title 41prompts.ai — Co-Founder & Engineering Lead
+                            p.project-tech LLMs, RAG, AI Agents, LangChain, FastAPI, Docker, Kubernetes
+                            ul.project-list
+                                li Led end-to-end development of a browser-based platform delivering real-time LLM prompt optimization, evaluation, and chaining with RAG pipelines and AI agent orchestration.
+                                li Architected a modular backend integrating multiple LLM providers behind a unified API for A/B testing and benchmarking, including data analysis and performance monitoring.
+                                li Deployed containerized microservices on Kubernetes for scalable, low-latency inference and continuous delivery.
+                            a.project-link(href='https://41prompts.ai', target='_blank') Visit Site →
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
-                        .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
+                        .project-item
+                            .project-icon
+                                i.fas.fa-microphone
+                            h3.project-title Parkinson's Disease Detection from Speech
+                            p.project-tech PyTorch, SpeechBrain, Hugging Face, MFCC, Transfer Learning
+                            ul.project-list
+                                li Fine-tuned and benchmarked X-vector, ECAPA-TDNN, and Whisper models to classify Parkinson's Disease from voice recordings.
+                                li Evaluated robustness across original and augmented datasets using MFCC features and transfer learning.
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
-                        .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                        .project-item
+                            .project-icon
+                                i.fab.fa-youtube
+                            h3.project-title TubeLytics: YouTube Analytics System
+                            p.project-tech Java, Akka, Play Framework, CI/CD
+                            ul.project-list
+                                li Built a scalable analytics platform ingesting YouTube Data API streams via the actor model for high-throughput concurrent processing.
+                                li Implemented unit tests and Git-hook CI to maintain code quality and prevent regressions.
 
-            hr.m-0
+            // Skills Section
+            section#skills.section
+                .container
+                    h2.section-title Tools & Technologies
 
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
+                    .skills-category
+                        h3.skills-category-title Programming Languages
+                        .skills-tags
+                            span.skill-tag Python
+                            span.skill-tag Java
+                            span.skill-tag C
+                            span.skill-tag C++
+                            span.skill-tag JavaScript
+                            span.skill-tag SQL
+                            span.skill-tag HTML/CSS
+                            span.skill-tag Assembly
+                            span.skill-tag Bash
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                    .skills-category
+                        h3.skills-category-title Machine Learning & AI
+                        .skills-tags
+                            span.skill-tag PyTorch
+                            span.skill-tag TensorFlow
+                            span.skill-tag Keras
+                            span.skill-tag Scikit-learn
+                            span.skill-tag Hugging Face
+                            span.skill-tag LangChain
+                            span.skill-tag LLMs
+                            span.skill-tag RAG
+                            span.skill-tag Prompt Engineering
+                            span.skill-tag OpenCV
+                            span.skill-tag SpeechBrain
+                            span.skill-tag Time-Series Forecasting
+                            span.skill-tag NLP
+                            span.skill-tag Computer Vision
+                            span.skill-tag Fine-Tuning
+                            span.skill-tag Transfer Learning
 
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                    .skills-category
+                        h3.skills-category-title Data & Analytics
+                        .skills-tags
+                            span.skill-tag Pandas
+                            span.skill-tag NumPy
+                            span.skill-tag SQL
+                            span.skill-tag Power BI
+                            span.skill-tag ETL Pipelines
+                            span.skill-tag Feature Engineering
+                            span.skill-tag A/B Testing
+                            span.skill-tag Statistical Analysis
 
-            hr.m-0
+                    .skills-category
+                        h3.skills-category-title Backend, Cloud & DevOps
+                        .skills-tags
+                            span.skill-tag FastAPI
+                            span.skill-tag Flask
+                            span.skill-tag Django
+                            span.skill-tag REST APIs
+                            span.skill-tag AWS
+                            span.skill-tag Docker
+                            span.skill-tag Kubernetes
+                            span.skill-tag CI/CD
+                            span.skill-tag Git
+                            span.skill-tag GitLab
+                            span.skill-tag Linux
+                            span.skill-tag Firebase
 
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
+            // Experience Section
+            section#experience.section
+                .container
+                    h2.section-title Experience
 
-            hr.m-0
+                    .timeline
+                        .timeline-item
+                            .timeline-date May 2025 - Present
+                            .timeline-content
+                                h3 Graduate Research Assistant (Volt-Age)
+                                p.company Concordia University
+                                ul
+                                    li Design and deploy real-time deep learning models for power-grid outage prediction and forecasting using climate, telemetry, and historical outage data to improve grid resilience.
+                                    li Engineer scalable time-series data analysis pipelines that ingest, clean, and align multi-source environmental and infrastructure data for downstream model training.
 
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
+                        .timeline-item
+                            .timeline-date Sept 2024 - Present
+                            .timeline-content
+                                h3 Teaching Assistant, Computer Science Department
+                                p.company Concordia University
+                                ul
+                                    li Support instruction, grading, and mentoring for 100+ students across 10+ undergraduate and graduate CS courses including Deep Learning, Intelligent Systems, Databases, OOP, Computer Organization, and Web Programming.
+                                    li Review student code, lead office hours, and develop instructional resources to strengthen practical programming and AI skills.
 
-            hr.m-0
+                        .timeline-item
+                            .timeline-date Jul 2022 - Feb 2023
+                            .timeline-content
+                                h3 Python Developer & ML Intern
+                                p.company Bartarin Software Co.
+                                ul
+                                    li Built end-to-end ML pipelines covering data ingestion, preprocessing, model training, and evaluation for production use cases.
+                                    li Improved model prediction accuracy by 12% via systematic hyperparameter tuning, feature engineering, and cross-validation.
 
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 2
-                            sup nd 
-                            | Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 1
-                            sup st 
-                            | Place - James Buchanan High School - Hackathon 2006
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | 3
-                            sup rd 
-                            | Place - James Buchanan High School - Hackathon 2005
+            // Contact Section
+            section#contact.section
+                .container
+                    .contact-wrapper
+                        .contact-left
+                            p.contact-label GET IN TOUCH
+                            h2.contact-title Let's work together
+                            p.contact-desc I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 
-        // Bootstrap core JS
+                            a.contact-email(href='mailto:aynaz.javanivayeghan@mail.concordia.ca')
+                                i.fas.fa-envelope
+                                span aynaz.javanivayeghan@mail.concordia.ca
+                                i.fas.fa-arrow-right
+
+                        .contact-right
+                            a.social-card(href='https://github.com/aynazjvn', target='_blank')
+                                i.fab.fa-github
+                                span GitHub
+
+                            a.social-card(href='https://www.linkedin.com/in/aynaz-javani', target='_blank')
+                                i.fab.fa-linkedin-in
+                                span LinkedIn
+
+                            a.social-card(href='https://x.com/aynazjavani', target='_blank')
+                                i.fab.fa-twitter
+                                span Twitter
+
+                            a.social-card(href='https://aynazjvn.github.io', target='_blank')
+                                i.fas.fa-globe
+                                span Website
+
+                            .location-card
+                                i.fas.fa-map-marker-alt
+                                div
+                                    strong Montreal, QC
+                                    p Available for remote, on-site, and hybrid work
+
+        // Footer
+        footer.footer
+            .container
+                p © 2025 Aynaz Javanivayeghan. All rights reserved.
+                p.footer-credit
+                    small Design inspired by
+                        a(href='https://www.sixtusagbo.dev', target='_blank') Sixtus Agbo
+                        |  | Built with
+                        a(href='https://startbootstrap.com/', target='_blank') Start Bootstrap
+
+        // Scripts
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
         script(src='js/scripts.js')

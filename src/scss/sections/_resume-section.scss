@@ -1,6 +1,6 @@
-// 
-// Sections
-// 
+//
+// Sections - Dark Modern Design
+//
 
 section.resume-section {
     display: flex;
@@ -10,9 +10,12 @@ section.resume-section {
     padding-top: 5rem;
     padding-bottom: 5rem;
     max-width: 75rem;
+    position: relative;
 
     .resume-section-content {
         width: 100%;
+        position: relative;
+        z-index: 10;
     }
 }
 

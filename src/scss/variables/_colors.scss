@@ -1,15 +1,42 @@
-// 
-// Colors
-// 
+//
+// Colors - Dark Modern Design (Inspired by Modern Portfolios)
+//
 
-// Pre-state grayscale colors used in other variables
+// Dark theme palette
+$near-black: #0a0a0a;
+$dark-bg: #0f0f0f;
+$darker-gray: #171717;
+$card-bg: #1a1a1a;
+$border-dark: #262626;
+$text-light: #fafafa;
+$text-muted: #a3a3a3;
+$text-dim: #737373;
 
-$gray-800: #343a40;
+// Accent colors - vibrant on dark
+$accent-green: #10b981; // Emerald green
+$accent-blue: #3b82f6; // Bright blue
+$accent-purple: #a855f7; // Vibrant purple
+$accent-cyan: #06b6d4; // Bright cyan
 
-// Override Bootstrap color system
+// Main color scheme
+$primary: $accent-green;
+$secondary: $accent-purple;
 
-$orange: #bd5d38;
+// Background colors
+$body-bg: $near-black;
+$section-bg: $dark-bg;
 
-// Override Bootstrap default state colors
+// Override Bootstrap grayscale for dark theme
+$white: #fafafa;
+$gray-100: $darker-gray;
+$gray-200: $card-bg;
+$gray-300: $border-dark;
+$gray-600: $text-muted;
+$gray-700: $text-dim;
+$gray-800: $darker-gray;
+$gray-900: $near-black;
 
-$primary: $orange;
+// Modern gradients
+$gradient-primary: linear-gradient(135deg, $accent-green 0%, $accent-cyan 100%);
+$gradient-accent: linear-gradient(135deg, $accent-purple 0%, $accent-blue 100%);
+$gradient-mesh: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);
