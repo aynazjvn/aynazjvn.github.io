@@ -1,69 +1,122 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
+# Aynaz Javanivayeghan - Portfolio Website
 
-[Resume](https://startbootstrap.com/theme/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+Personal portfolio website showcasing my work in AI/ML Engineering, Software Development, and Data Science.
 
-## Preview
+[![Live Website](https://img.shields.io/badge/website-live-brightgreen)](https://aynazjvn.github.io)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[![Resume Preview](https://assets.startbootstrap.com/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
+## 🌐 Live Site
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
+Visit my portfolio at **[aynazjvn.github.io](https://aynazjvn.github.io)**
 
-## Status
+## 🚀 About Me
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+MSc Computer Science candidate at Concordia University specializing in AI/ML Engineering. Co-founder of [41prompts.ai](https://41prompts.ai), currently building large-scale time-series models for power-grid outage prediction and forecasting.
 
-## Download and Installation
+## 🛠️ Technical Stack
 
-To begin using this template, choose one of the following options to get started:
+- **Frontend**: HTML5, CSS3/SCSS, JavaScript, Bootstrap 5
+- **Templating**: Pug
+- **Build Tools**: Node.js, npm
+- **Deployment**: GitHub Pages
+- **Design**: Dark theme with modern UI/UX
 
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/resume/)
-- Install using npm: `npm i startbootstrap-resume`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-resume.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-resume)
+## ✨ Features
 
-## Usage
+- **Modern Dark Theme**: Clean, professional design with emerald green accents
+- **Responsive Layout**: Optimized for all devices and screen sizes
+- **Hero Section**: Eye-catching landing with profile card and quick stats
+- **Projects Showcase**: Featured work including 41prompts.ai and ML projects
+- **Skills Display**: Comprehensive technical skills organized by category
+- **Experience Timeline**: Professional history with detailed descriptions
+- **Contact Section**: Social media integration and direct email link
+- **Downloadable CV**: One-click resume download
 
-### Basic Usage
+## 📂 Project Structure
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+```
+├── src/                    # Source files
+│   ├── pug/               # Pug templates
+│   ├── scss/              # SCSS stylesheets
+│   ├── js/                # JavaScript files
+│   └── assets/            # Images, fonts, and other assets
+├── dist/                  # Compiled/built files
+├── index.html             # Main HTML file (built from Pug)
+└── README.md             # This file
+```
 
-### Advanced Usage
+## 🔧 Local Development
 
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+### Prerequisites
 
-#### npm Scripts
+- Node.js (v14 or higher)
+- npm
 
-- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-- `npm run start:debug` runs the project in debug mode
-- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
+### Installation
 
-You must have npm installed in order to use this build environment.
+1. Clone the repository:
+```bash
+git clone https://github.com/aynazjvn/aynazjvn.github.io.git
+cd aynazjvn.github.io
+```
 
-## Bugs and Issues
+2. Install dependencies:
+```bash
+npm install
+```
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-resume/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/resume/).
+3. Start development server:
+```bash
+npm start
+```
 
-## About
+The site will open at `http://localhost:3002` with live reload enabled.
 
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+### Build for Production
 
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
+```bash
+npm run build
+```
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+This compiles all Pug, SCSS, and JS files into the `dist` directory.
 
-- <https://davidmiller.io>
-- <https://twitter.com/davidmillerhere>
-- <https://github.com/davidtmiller>
+## 📝 Available npm Scripts
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+- `npm start` - Start development server with live reload
+- `npm run build` - Build production files
+- `npm run build:pug` - Compile Pug templates to HTML
+- `npm run build:scss` - Compile SCSS to CSS
+- `npm run build:scripts` - Process JavaScript files
+- `npm run build:assets` - Copy assets to dist folder
+- `npm run clean` - Delete dist directory
 
-## Copyright and License
+## 🎨 Customization
 
-Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) license.
+The website is built with modularity in mind:
+
+- **Colors**: Edit `src/scss/variables/_colors.scss`
+- **Layout**: Modify `src/pug/index.pug`
+- **Styles**: Update component files in `src/scss/`
+- **Content**: Update text and information in Pug templates
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Design inspired by [Sixtus Agbo](https://www.sixtusagbo.dev)
+- Built with [Start Bootstrap](https://startbootstrap.com/)
+- Icons by [Font Awesome](https://fontawesome.com/)
+
+## 📧 Contact
+
+- **Email**: aynaz.javanivayeghan@mail.concordia.ca
+- **LinkedIn**: [linkedin.com/in/aynaz-javani](https://www.linkedin.com/in/aynaz-javani)
+- **GitHub**: [github.com/aynazjvn](https://github.com/aynazjvn)
+- **Twitter**: [@aynazjavani](https://x.com/aynazjavani)
+- **Website**: [41prompts.ai](https://41prompts.ai)
+
+---
+
+© 2025 Aynaz Javanivayeghan. All rights reserved.
