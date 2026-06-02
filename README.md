@@ -115,7 +115,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - **LinkedIn**: [linkedin.com/in/aynaz-javani](https://www.linkedin.com/in/aynaz-javani)
 - **GitHub**: [github.com/aynazjvn](https://github.com/aynazjvn)
 - **Twitter**: [@aynazjavani](https://x.com/aynazjavani)
-- **Website**: [41prompts.ai](https://41prompts.ai)
 
 ---
 
