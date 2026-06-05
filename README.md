@@ -1,4 +1,4 @@
-# Aynaz Javanivayeghan - Portfolio Website
+# Aynaz Javani - Portfolio Website
 
 Personal portfolio website showcasing my work in AI/ML Engineering, Software Development, and Data Science.
 
@@ -117,4 +117,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-© 2025 Aynaz Javanivayeghan. All rights reserved.
+© 2025 Aynaz Javani. All rights reserved.
